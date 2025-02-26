@@ -11,11 +11,11 @@ double clock_rate;
 
 void enter_params() {			//choice one: entering the parameters
 
-	printf("Enter the number of instructions")
+	printf("Enter the number of instructions");
 	scanf("%d", &num_classes);
 
 	printf("Enter the frequency of the machine (MHz): ");
-	scanf("%1f", &clock_rate);
+	scanf("%lf", &clock_rate);
 
 	for (int i = 0; i < num_classes; i++) {
 		printf("Enter CPI of class %d: ", i +1);
@@ -72,7 +72,7 @@ int main() {
         
         switch (choice) {
             case 1:
-                enter_parameters();
+                enter_params();
                 break;
             case 2:
                 print_input_table();
