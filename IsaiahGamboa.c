@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 #define MAX_CLASSES 100
 
