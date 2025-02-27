@@ -29,11 +29,11 @@ void enter_params() {			//selection one: entering the parameters
 void print_input_table() {
     printf("\n-----------------------\n");
     printf("| Class | CPI  | Count|\n");
-    printf("-------------------------\n");
+    printf("-----------------------\n");
     for (int i = 0; i < num_classes; i++) {
         printf("| %5d | %.2f | %.2f |\n", i + 1, cpi[i], instruction_count[i]);
     }
-    printf("-------------------------\n");
+    printf("-----------------------\n");
 }
 
 void print_performance_table() {
