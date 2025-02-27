@@ -11,7 +11,7 @@ double clock_rate;
 
 void enter_params() {			//choice one: entering the parameters
 
-	printf("Enter the number of instructions");
+	printf("Enter the number of instructions: ");
 	scanf("%d", &num_classes);
 
 	printf("Enter the frequency of the machine (MHz): ");
