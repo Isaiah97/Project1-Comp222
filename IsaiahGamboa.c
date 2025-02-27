@@ -9,7 +9,7 @@ double cpi[MAX_CLASSES];
 double instruction_count[MAX_CLASSES];
 double clock_rate;
 
-void enter_params() {			//choice one: entering the parameters
+void enter_params() {			//selection one: entering the parameters
 
 	printf("Enter the number of instructions: ");
 	scanf("%d", &num_classes);
@@ -47,7 +47,7 @@ void print_performance_table() {
     
     double avg_cpi = total_cycles / total_instructions;
     double cpu_time = (total_cycles / (clock_rate * 1e6)) * 1000; // Convert to ms
-    double mips = (total_instructions * 1e6) / (cpu_time / 1000 * 1e6);
+    double mips = total_instructions  / (cpu_time * 1e3);
     
     printf("\n-------------------------\n");
     printf("| Performance  | Value  |\n");
