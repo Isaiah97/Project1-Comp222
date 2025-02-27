@@ -47,7 +47,7 @@ void print_performance_table() {
     
     double avg_cpi = total_cycles / total_instructions;
     double cpu_time = (total_instructions * avg_cpi) / clock_rate * 1000; // Convert to ms
-    double mips = clock rate / avg_cpi;
+    double mips = clock_rate / avg_cpi;
     
     printf("\n-------------------------\n");
     printf("| Performance  | Value  |\n");
