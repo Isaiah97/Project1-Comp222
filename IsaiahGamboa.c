@@ -54,7 +54,7 @@ void print_performance_table() {
     printf("-------------------------\n");
     printf("| Average CPI  | %.2f   |\n", avg_cpi);
     printf("| CPU Time (ms)| %.2f   |\n", cpu_time);
-    printf("| MIPS        | %.2f   |\n", mips);
+    printf("| MIPS         | %.2f  |\n", mips);
     printf("-------------------------\n");
 }
 
