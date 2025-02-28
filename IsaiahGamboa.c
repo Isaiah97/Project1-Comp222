@@ -30,7 +30,7 @@ void print_input_table() { //need to make table of input values for option 2
     printf("| Class | CPI  | Count|\n");
     printf("-----------------------\n");
     for (int i = 0; i < num_classes; i++) { //have a loop to see the number of classes
-        printf("| %3d | %.2f | %.2f |\n", i + 1, cpi[i], instruction_count[i]); //make things fit nicely in table
+        printf("| %5d | %.2f | %.2f |\n", i + 1, cpi[i], instruction_count[i]); //make things fit nicely in table
     }
     printf("-----------------------\n");
 }
